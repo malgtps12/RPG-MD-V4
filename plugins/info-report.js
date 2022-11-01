@@ -1,7 +1,7 @@
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 let text = ``
 const templateButtons = [
-    {index: 1, urlButton: {displayText: '🔧 Laporkan di sini', url: 'https://wa.me/6288279268363'}},
+    {index: 1, urlButton: {displayText: '🔧 Laporkan di sini', url: 'https://wa.me/089516353968'}},
 ]
 let tm = {
 text: text,
