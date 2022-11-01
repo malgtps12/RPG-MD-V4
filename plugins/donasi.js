@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 
-//Plugin By Xynoz!!
+//Plugin By Mall!!
 let handler = async (m, { conn, usedPrefix }) => {
   const ultah = new Date('November 4 2022 00:00:01')
     const sekarat = new Date().getTime() 
@@ -12,12 +12,12 @@ let handler = async (m, { conn, usedPrefix }) => {
   let vn = `https://github.com/saipulanuar/Api-Github/raw/main/audio/Donasiku.mp3`
   conn.sendButton(m.chat, `
 ┏━ꕥ〔 *Donasi • Dana* 〕ꕥ━⬣
-┃✾ Gopay  [088279268363]
-┃✾ Dana  [088279268363]
-┃✾ Saweria  [https://saweria.co/raraharsita2]
+┃✾ Gopay  [089516353968]
+┃✾ Dana  [089516353968]
+┃✾ Saweria  [https://saweria.co/Mall12]
 ┗━━━━ꕥ
 ┏━━ꕥ〔 *NOTE* 〕ꕥ━⬣
-┃ Ingin donasi? Wa.me/6288279268363
+┃ Ingin donasi? Wa.me/6289516353968
 ┃ _Hasil donasi akan digunakan buat sewa_
 ┃ _atau beli *RDP/VPS* agar bot bisa jalan_
 ┃ _24jam tanpa kendala_
@@ -25,7 +25,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 `.trim(), wm, [['Owner',`/owner`]],m) // Tambah sendiri kalo mau
 conn.sendFile(m.chat, vn, 'haori.mp3', null, m, true, {
 type: 'audioMessage', 
-ptt: true, contextInfo:{ externalAdReply: { title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`, body: `Follow Tiktok My Bestie`, sourceUrl: 'https://www.tiktok.com/@raraharsita2', thumbnail: await (await fetch('https://i.ibb.co/jfZVKmC/babi2.jpg')).buffer(),}} 
+ptt: true, contextInfo:{ externalAdReply: { title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`, body: `Follow Tiktok My Bestie`, sourceUrl: 'https://www.tiktok.com/@agensecret51', thumbnail: await (await fetch('https://i.ibb.co/jfZVKmC/babi2.jpg')).buffer(),}} 
      }) 
 }
 handler.command = /^(donasi|dns)$/i
@@ -36,6 +36,6 @@ handler.limit = false
 
 export default handler
 
-// 📮 Made In Xynoz 
-// Subscribe YouTube Xynoz!
+// 📮 Made In Mall 
+// Subscribe YouTube -!
 // Tq To Jangan Di Hpus!!
