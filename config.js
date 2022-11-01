@@ -44,7 +44,7 @@ global.ppulsa2 = '-'
 global.psaweria = 'https://saweria.co/Mall12'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '17326319049'
+global.nomorbot = '6281376884803'
 global.nomorown = '6289516353968'
 global.namebot = 'MallBot-MD'
 global.nameown = 'Mall'
